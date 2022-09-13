@@ -1,0 +1,78 @@
+body {
+    color: white;
+    font-family: Tahoma;
+    font-size: small;
+    box-sizing: border-box; 
+    background-image: linear-gradient(rgb(97, 58, 148), rgb(29, 178, 247));
+} 
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+.container {
+    background-color:rgb(43, 3, 107);
+    width: 100%;
+    margin: 4rem auto 0 auto; 
+    max-width: 400px;
+    border-radius: 0.5rem; 
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-top: 30px;
+    padding: 1rem;  
+    text-align: center;
+}
+
+header {
+    background-color: rgb(38, 6, 90);
+    border-radius: 0.5rem;
+}
+
+div {
+    display: block;
+}
+
+.checkbox {
+    font-size: small;
+}
+
+span {
+    padding-left: 15px;
+}
+
+.span_ {
+    padding-left: 38px;
+}
+
+.form-control {
+    width: 94%;
+    padding: 10px 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+}
+
+form {
+    margin-top: 30px;
+    padding: 0 2.5rem 2.5rem 2.5rem; 
+}
+
+button {
+    float: right;
+    font-size: 1.25em;
+    padding: 3px 20px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(180deg, rgb(140, 236, 43), rgb(50, 139, 50));
+}
+
+button:active {
+    transform: translateY(2px);
+}
